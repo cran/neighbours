@@ -1,0 +1,17 @@
+7c820c64732c0dad5a7e1e8ce4fa8907 *ChangeLog
+886a51e5ab217680a7fa7785d2a9bca8 *DESCRIPTION
+4338c22cb6f3e3e531a309fe1b6061c1 *NAMESPACE
+c216bf70d3e95d67ddbaf358e8d80015 *NEWS
+830514e6225a697b98ea57a368b175ee *R/neighbourfun.R
+bf0610f4e6388f9c1d796b0808bc9242 *README.md
+6962aabe80d04b829635585b7d4514af *build/vignette.rds
+eaa230efba95af8882cc9f90372e5bcb *inst/doc/neighbours.R
+bd723501d2bdb88ae1ca55a42921219a *inst/doc/neighbours.Rnw
+7872310d17e1068408ddab5b165ad172 *inst/doc/neighbours.bib
+af9c334475a7314b6500360b5222021b *inst/doc/neighbours.pdf
+a10df1f16faf5d0bd4977a73a7af1980 *inst/tinytest/test_neighbours.R
+8ab636288e6b82ee4f0bf294d4a85b61 *man/compare_vectors.Rd
+bc06d8bc6d7d978825834236cc183c7f *man/neighbourfun.Rd
+4dd796f0740644ab94470039f13a3af1 *tests/tinytest.R
+bd723501d2bdb88ae1ca55a42921219a *vignettes/neighbours.Rnw
+7872310d17e1068408ddab5b165ad172 *vignettes/neighbours.bib
