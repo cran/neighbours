@@ -65,7 +65,7 @@ column_cor <- function(x, X, y)
 
 
 ###################################################
-### code chunk number 7: neighbours.Rnw:131-132
+### code chunk number 7: cor-x0
 ###################################################
 column_cor(x0, X, y)
 
@@ -191,7 +191,8 @@ sol.ls <- LSopt(variance,
                      printBar = FALSE),
                 S = S)
 
-sol.qp <- if (requireNamespace("NMOF"))
+sol.qp <- if (requireNamespace("NMOF") &&
+              requireNamespace("quadprog"))
               round(NMOF::minvar(S, wmin = 0, wmax = 0.2), 2) else NA
 data.frame(LS = round(sol.ls$xbest, 2)[1:10],
            QP = sol.qp[1:10])
@@ -212,7 +213,7 @@ data.frame(LS2 = round(sol.ls2$xbest, 2)[1:10],
 
 
 ###################################################
-### code chunk number 22: neighbours.Rnw:357-362
+### code chunk number 22: neighbours.Rnw:358-363
 ###################################################
 semivariance <- function(x, R, ...) {
     Rx <- R %*% x
